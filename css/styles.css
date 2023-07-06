@@ -1,0 +1,125 @@
+*{margin: 0%; padding: 0; box-sizing: border-box;}
+@font-face{
+    src: url("../fonts/NunitoSans-Bold.ttf");
+    font-family: "Nunito-Bold";
+}
+@font-face{
+    src: url("../fonts/NunitoSans-Regular.ttf");
+    font-family: "Nunito-Regular";
+}
+@font-face{
+    src: url("../fonts/NunitoSans-SemiBold.ttf");
+    font-family: "Nunito-SemiBold";
+}
+.fuente-bold{
+    font-family: "Nunito-Bold";
+}
+.fuente-regular{
+    font-family: "Nunito-Regular";
+}
+.fuente-semibold{
+    font-family: "Nunito-SemiBold";
+}
+.miheader{
+    background-color: #054Eaa;
+}
+.GrupoSES-logo{
+    max-height: 65px;
+    max-width: 100%;
+}
+.menupc{
+    display: flex;
+    justify-content: left;
+}
+.enlaces{
+    color: white!important;
+}
+.enlaces:hover{
+    color: #f7941d !important;
+}
+.blanco{
+    color: white;
+    font-size: 1.5em;
+}
+.color-naranja{
+    color: #E98009;
+}
+.color-azul{
+    color: #054Eaa;
+}
+p{
+    font-size: 1em;
+}
+.vermas1{
+    background-color:  #054Eaa;
+    color: white;
+}
+.vermas1:hover{
+    background-color: #022249;
+    color: white;
+}
+.vermas2{
+    background-color:  #E98009;
+    color: white;
+}
+.vermas2:hover{
+    background-color: #6e3c03;
+    color: white;
+}
+.colorIcon{
+    color: #333333;
+}
+.colorIcon2{
+    color: #333333;
+}
+.colorIcon2:hover{
+    color: #008FD5;
+}
+.campos{
+    background-color: #F5F5F5;
+}
+.derechos{
+    color: #b3b3b3;
+}
+.xivo{
+    color: #dfdfdf;
+    text-decoration: none;
+}
+.xivo:hover{
+    color: white;
+}
+.subrayado{
+    height: 6px;
+}
+.fondo-clientes{
+    background: url(../img/fondo-clientes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chico{
+    display: flex;
+    align-items: flex-end;
+}
+.type-footer{
+    color: white;
+}
+.enlace-footer{
+    color: white;
+}
+.enlace-footer:hover{
+    color: #c5c1c1;
+}
+.ir-arriba{
+    display: inline-block;
+    padding: 10px;
+    background: #030833;
+    font-size:20px;
+    color: #F5F5F5;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}
+.ir-arriba:hover{
+    background: #979593;
+}
